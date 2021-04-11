@@ -38,6 +38,6 @@ class MyPreferenceFragment : PreferenceFragmentCompat() {
         emailPreference = findPreference<EditTextPreference>(EMAIL) as EditTextPreference
         agePreference = findPreference<EditTextPreference>(AGE) as EditTextPreference
         phonePreference = findPreference<EditTextPreference>(PHONE) as EditTextPreference
-        isLoveMUPreference = findPreference<CheckBoxPreference>(LOVE) as EditTextPreference
+        isLoveMUPreference = findPreference<CheckBoxPreference>(LOVE) as CheckBoxPreference
     }
 }
